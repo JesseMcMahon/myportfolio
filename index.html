@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jesse McMahon | Software Engineer</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/regular.min.js"
+    />
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <script src="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"></script>
+  </head>
+  <body>
+    <section class="showcase">
+      <div class="video-container">
+        <video src="video.mp4" autoplay muted loop></video>
+      </div>
+      <div class="content">
+        <h1>Jesse McMahon</h1>
+        <h2>Software Engineer</h2>
+        <a class="btn">Github</a>
+        <a href="#my-work" class="btn work-btn">My Work</a>
+        <a href="#about" class="arrow"
+          ><img src="./images/arrow.svg" alt="arrow pointing down"
+        /></a>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h1>A little about me</h1>
+      <p>
+        Hi, my name is Jesse. I am a Software Developer with a strong passion
+        for the field. I also have a deep passion for learning new things. In
+        the world of software development things are constantly changing. This
+        means that new obstacles and challenges arrive every day and I think it
+        is imperative to continue learning if you want to be successful in this
+        field. Below are some of the technologies that I have expreience with so
+        far!
+      </p>
+      <div class="skills-line-1">
+        <div class="large-icon">
+          <ion-icon class="javascript" name="logo-javascript"></ion-icon>
+        </div>
+        <div class="large-icon">
+          <img class="react" src="./images/react.svg" alt="React Logo" />
+        </div>
+        <div class="large-icon">
+          <img class="redux" src="./images/redux.svg" alt="Redux Logo" />
+        </div>
+
+        <div class="large-icon">
+          <ion-icon class="node" name="logo-nodejs"></ion-icon>
+        </div>
+
+        <div class="large-icon">
+          <ion-icon class="mongodb" name="leaf"></ion-icon>
+        </div>
+      </div>
+      <div class="skills-line-2">
+        <div class="large-icon">
+          <ion-icon class="html" name="logo-html5"></ion-icon>
+        </div>
+        <div class="large-icon">
+          <ion-icon class="css" name="logo-css3"></ion-icon>
+        </div>
+
+        <div class="large-icon">
+          <ion-icon class="github" name="logo-github"></ion-icon>
+        </div>
+
+        <div class="large-icon">
+          <ion-icon class="sass" name="logo-sass"></ion-icon>
+        </div>
+      </div>
+    </section>
+
+    <section id="my-work" class="my-work">
+      <h1>My Work</h1>
+      <div class="slideshow">
+        <div class="slide current">
+          <div class="content">
+            <h2>Stock App</h2>
+            <p>
+              An app that searches multiple API's to obtain data regarding a
+              stock based on user input. The app displays a dynamic price chart
+              as well as a "Company Snapshot" with information about the company
+              specified by the user. The app also has a top news feature that
+              updates throughout the day with top news stories.
+            </p>
+            <p class="built-with">
+              <strong>Built with: React, HTML5, CSS3, Plotly.JS</strong>
+            </p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="content">
+            <h2>News App</h2>
+            <p>
+              News website that utilizes the NewsAPI to retrieve news stories
+              from various news outlets based on user input.
+            </p>
+            <p class="built-with">
+              <strong>Built with: React, HTML5, CSS3, NEWS API</strong>
+            </p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="content">
+            <h2>Maze Game</h2>
+            <p>
+              Playable game that utilizes algorithms to generate a random,
+              completable maze. Users are prompted with directions upon each
+              render and each time they beat the game a new maze will be
+              generated.
+            </p>
+            <p class="built-with">
+              <strong>Built with: Javascript, HTML5, CSS3, Matter.JS</strong>
+            </p>
+          </div>
+        </div>
+        <div class="buttons">
+          <button id="prev">
+            Last
+          </button>
+          <button id="next">
+            Next
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <footer>
+        <div class="video-container">
+          <video src="video.mp4" autoplay muted loop></video>
+          <h4>Copyright &copy; 2020</h4>
+        </div>
+      </footer>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
