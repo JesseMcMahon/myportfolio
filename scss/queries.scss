@@ -42,7 +42,14 @@
 
 @media only screen and (max-width: 835px) {
   .about {
+    h1 {
+      padding: 1%;
+    }
+    p {
+      padding: 1.5%;
+    }
     .skills-line-1 {
+      padding: 1%;
       img {
         width: 100px;
         height: 100px;
@@ -53,6 +60,7 @@
       }
     }
     .skills-line-2 {
+      padding: 1%;
       .large-icon {
         padding: 2rem;
         font-size: 500%;
