@@ -225,7 +225,8 @@ a {
       height: 100%;
       opacity: 0;
       transition: opacity 0.4s ease-in-out;
-      border: 1px solid rgb(46, 220, 243);
+      border-top: 1px solid rgb(46, 220, 243);
+      border-bottom: 1px solid rgb(46, 220, 243);
 
       .content {
         position: absolute;
@@ -241,6 +242,23 @@ a {
           margin-bottom: 10px;
           border-bottom: 1px solid #333;
         }
+
+        span {
+          a {
+            .individual-project-link {
+              padding-left: 55px;
+              color: #ffd33d;
+            }
+          }
+        }
+
+        // span {
+        //   a {
+        //     .individual-project-link {
+        //       cursor: pointer;
+        //     }
+        //   }
+        // }
 
         .built-with {
           padding-top: 15px;
